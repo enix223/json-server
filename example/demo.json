@@ -1,0 +1,36 @@
+[
+  {
+    "path": "/hello",
+    "method": "POST",
+    "payload_type": "json",
+    "payload": {
+      "name": "Enix",
+      "greeting": "ARE YOU OK?"
+    },
+    "resposne_headers": {
+      "content-type": "application/json"
+    }
+  },
+  {
+    "path": "/hello",
+    "method": "GET",
+    "payload_type": "json",
+    "payload": {
+      "name": "Enix",
+      "greeting": "ARE YOU OK?"
+    },
+    "resposne_headers": {
+      "content-type": "application/json"
+    }
+  },
+  {
+    "path": "/welcome",
+    "method": "GET",
+    "payload_type": "text",
+    "payload": "HELLO, ARE YOU OK?"
+  },
+  {
+    "path": "/ok",
+    "method": "GET"
+  }
+]
